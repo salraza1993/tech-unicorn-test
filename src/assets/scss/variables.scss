@@ -3,4 +3,20 @@
   --transition: all .3s ease-in-out;
   --icon-size: 45px;
   --bs-primary: #F3692E;
+  --bs-primary-rgb: 220, 53, 69;
+  --hero-banner-height: 300px;
+  --aside-width: 300px;
+  --aside-ad-height: 320px;
+  --coupon-card-height: 285px;
+
+  --base-font: 'DM Sans', sans-serif;
+  --marriweather: 'Merriweather', serif, var(--base-font);
+}
+.btn {
+  &-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: #b54718;
+    --bs-btn-hover-border-color: #b54718;
+  }
 }

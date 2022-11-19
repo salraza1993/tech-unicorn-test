@@ -43,9 +43,13 @@ header {
         display: block;
         text-decoration: none;
         color: var(--bs-secondary);
+        transition: var(--transition);
         &.active {
           font-weight: bold;
-          color: var(--bs-dark);
+          color: var(--bs-primary);
+        }
+        &:hover {
+          color: var(--bs-primary);
         }
       }
     }
